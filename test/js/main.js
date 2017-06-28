@@ -9,7 +9,3 @@ import js from 'gp-module-parser';
 import packages from './packages';
 
 js.parse(null, packages);
-
-global.picture.ready(function() {
-    console.log('READY Hurra!!!');
-});
